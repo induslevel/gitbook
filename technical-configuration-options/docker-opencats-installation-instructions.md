@@ -11,7 +11,7 @@ These instructions are for the [Docker](https://www.docker.com/) environment onl
 
 \##Architecture
 
-OpenCATS is installed in container without database. Database in in extra container. Optinaly it is also possible to create container with phpmyadmin to manage mysql database.
+OpenCATS is installed in container without database. Database in an extra container. Optinally it is also possible to create a container with phpmyadmin to manage the mysql database.
 
 \##Dockerfile
 
@@ -19,7 +19,7 @@ OpenCats docker file is based on [php 7.2 docker image](https://hub.docker.com/l
 
 \##docker-compose.yml
 
-To build / install all images, it is possible to write `docker-compose.yml` file containg all containers definitions. Example of `docker-compose.yml`
+To build / install all images, it is possible to write `docker-compose.yml` file containing all containers definitions. Example of `docker-compose.yml`
 
 ```yml
 opencats:
